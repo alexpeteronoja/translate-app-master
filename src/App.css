@@ -1,76 +1,78 @@
 @import 'tailwindcss';
 body {
-    background-image: url('/images/hero_img-sm.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #040711;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'DM Sans', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    color: #f9fafb;
+  background-image: url('/images/hero_img-sm.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #040711;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #f9fafb;
 }
 
 textarea {
-    width: 326px;
-    resize: none;
-    overflow: hidden;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
 }
 
 textarea:focus {
-    outline: none;
+  outline: none;
 }
 
 .translating-text {
-    height: 239px;
+  height: 239px;
+  width: inherit;
 }
 
 .translated-text {
-    height: 275px;
+  height: 275px;
+  width: inherit;
 }
 
 .active {
-    background-color: #4d5562;
-    border-radius: 10px;
+  background-color: #4d5562;
+  border-radius: 10px;
 }
 
 hr {
-    border: 1px solid #394150;
+  border: 1px solid #394150;
 }
 
 .box {
-    background-color: #121826cc;
-    width: 320px;
+  background-color: #121826cc;
+  width: 320px;
 }
 
 .translating-length {
-    font-weight: 500;
-    font-size: 12px;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .translate-btn {
-    background-color: #263fa9;
-    border: 1px solid #7ca9f3;
-    cursor: pointer;
+  background-color: #263fa9;
+  border: 1px solid #7ca9f3;
+  cursor: pointer;
 }
 
 .btn-style {
-    border: 3px solid #4d5562;
-    padding: 10px;
-    border-radius: 15px;
-    cursor: pointer;
+  border: 3px solid #4d5562;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 998px) {
-    .box {
-        width: 520px;
-    }
-    textarea {
-        width: 445px;
-    }
+  .box {
+    width: 520px;
+  }
+  textarea {
+    width: 445px;
+  }
 }
